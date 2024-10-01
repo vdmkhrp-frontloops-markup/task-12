@@ -65,7 +65,7 @@ body {
   @media (width >= 768px) {
     max-width: 596px;
     box-shadow: 0 6px 12px rgba(#000, 0.2);
-    row-gap: 70px;
+    row-gap: 65px;
   }
 
   &__header {
@@ -75,7 +75,7 @@ body {
     padding: 40px 22px 20px;
 
     @media (width >= 768px) {
-      padding: 70px 62px 0;
+      padding: 60px 62px 0;
     }
   }
 
@@ -133,11 +133,12 @@ body {
   &__label {
     display: flex;
     flex-direction: column;
-    row-gap: 14px;
+    row-gap: 10px;
   }
 
   &__title {
     font-weight: 500;
+    font-size: 14px;
     color: #909f9f;
     text-transform: uppercase;
   }
@@ -148,6 +149,7 @@ body {
     appearance: none;
     border: none;
     border-radius: 0;
+    font-size: 18px;
     border-bottom: 1px solid #cbcbcb;
     padding: 0 50px 10px 0;
 
@@ -178,7 +180,7 @@ body {
     font-family: inherit;
 
     @media (width >= 768px) {
-      padding-bottom: 100px;
+      padding-bottom: 80px;
     }
   }
 }
